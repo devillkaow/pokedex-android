@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setAdapter() {
         mainAdapter = MainAdapter()
-//        mainAdapter?.setOnItemClckListerner(this)
+//        mainAdapter?.setOnItemClickListener(this)
 
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         recyclerView.adapter = mainAdapter
